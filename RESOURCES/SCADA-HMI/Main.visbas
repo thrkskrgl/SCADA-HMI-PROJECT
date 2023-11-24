@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<MovResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<ScriptCode StartSel="6429" SelLength="0" OutStatusBar="1" OutLog="1" OutPrinter="1">Private Declare Sub Sleep Lib "kernel32" (ByVal dwMilliseconds As Long)
+
+Sub Main()
+
+	deg=7
+	deg_initial = 7
+	deg_middle = 15
+	deg_last = 23
+	deg_diff = deg_last - deg_initial
+	cnt = 0
+	wait_ms_car = 100
+	wait_ms_ramp = 500
+	h1 = 0.009130
+  h2 = 0.027391
+  h3 = 0.045652
+  h4 = 0.054782
+	car_x=-640
+	car_x_initial = -640
+	car_x_step1 = 0
+	car_x_step2 = 640
+	car_x_last = 1920
+	car_x_step = 8
+	car_y=0
+	car_y_initial = 0
+	car_y_middle = 263
+	car_y_last = 516
+	car_y_step= (car_y_last - car_y_initial) / deg_diff
+	lamp1=False
+	lamp2=False
+	lamp3=False
+	lamp4=False
+	lamp5=False
+	lamp6=False
+	plamp=False
+	h1_target = 86.011654
+  h2_target = 258.034963
+  h3_target = 430.058271
+  h4_target = 516.069925
+  h1_step = (h1_target - h1) / deg_diff
+  h2_step = (h2_target - h2) / deg_diff
+  h3_step = (h3_target - h3) / deg_diff
+  h4_step = (h4_target - h4) / deg_diff
+
+	While True
+		If plamp Then
+            While(car_x &lt; car_x_step1)
+				car_x += car_x_step
+				cnt += 1
+				Sleep(wait_ms_car)
+				If car_x = car_x_step1 Then
+					While(deg &lt; deg_last)
+        				deg += 1
+						h1 -= h1_step
+						h2 -= h2_step
+						h3 -= h3_step
+						h4 -= h4_step
+						Sleep(wait_ms_ramp)
+						cnt += 1
+						If deg = deg_last Then
+							lamp1 = True
+							While(car_x &lt; car_x_step2)
+								car_x += car_x_step
+								cnt += 1
+								Sleep(wait_ms_car)
+								If car_x = car_x_step2 Then
+									lamp1 = False
+									While(deg &gt;= deg_middle)
+										deg -= 1
+										car_y += car_y_step
+        								h1 += h1_step
+        								h2 += h2_step
+        								h3 += h3_step
+        								h4 += h4_step
+        								cnt += 1
+        								Sleep(wait_ms_ramp)
+										If deg = deg_middle Then
+											lamp5 = True
+											While(car_x &lt; car_x_last)
+												car_x += car_x_step
+												cnt += 1
+												Sleep(wait_ms_car)
+												If car_x = car_x_last Then
+													lamp5 = False
+													car_x = car_x_initial
+													car_y = car_y_last
+													While(car_x &lt; car_x_step1)
+														car_x += car_x_step
+														cnt += 1
+														Sleep(wait_ms_car)
+														If car_x = car_x_step1 Then
+															While(deg &gt; deg_initial)
+																deg -= 1
+        														h1 += h1_step
+        														h2 += h2_step
+        														h3 += h3_step
+        														h4 += h4_step
+        														cnt += 1
+        														Sleep(wait_ms_ramp)
+																If deg = deg_initial Then
+																	lamp3 = True
+																	While(car_x &lt; car_x_step2)
+																		car_x += car_x_step
+																		cnt += 1
+																		Sleep(wait_ms_car)
+																		If car_x = car_x_step2 Then
+																			lamp3 = False
+																			While(deg &lt; deg_last)
+																				deg += 1
+																				car_y -= car_y_step
+        																		h1 -= h1_step
+        																		h2 -= h2_step
+        																		h3 -= h3_step
+        																		h4 -= h4_step
+        																		cnt += 1
+        																		Sleep(wait_ms_ramp)
+        																		If deg = deg_last Then
+																					lamp4 = True
+																					While(car_x &lt; car_x_last)
+																						car_x += car_x_step
+																						cnt += 1
+																						Sleep(wait_ms_car)
+																						If car_x = car_x_last Then
+																							lamp4 = False
+																							car_y = car_y_middle
+																							car_x = car_x_initial
+																								While(car_x &lt; car_x_step1)
+																								car_x += car_x_step
+																								cnt += 1
+																								Sleep(wait_ms_car)
+																								If (car_x = car_x_step1) Then
+																									While(deg &gt; deg_middle)
+																										deg -= 1
+        																								h1 += h1_step
+        																								h2 += h2_step
+        																								h3 += h3_step
+        																								h4 += h4_step
+        																								cnt += 1
+        																								Sleep(wait_ms_ramp)
+        																								If deg = deg_middle Then
+																											lamp2 = True
+																											While(car_x &lt; car_x_step2)
+																												car_x += car_x_step
+																												cnt += 1
+																												Sleep(wait_ms_car)
+																												If car_x = car_x_step2 Then
+																													lamp2 = False
+																													While(deg &gt; deg_initial)
+																														deg -= 1
+																														car_y += car_y_step
+        																												h1 += h1_step
+        																												h2 += h2_step
+        																												h3 += h3_step
+        																												h4 += h4_step
+        																												cnt += 1
+        																												Sleep(wait_ms_ramp)
+        																												If deg = deg_initial Then
+																															lamp6 = True
+																															While(car_x &lt; car_x_last)
+																																car_x += car_x_step
+																																cnt += 1
+																																Sleep(wait_ms_car)
+																																If car_x = car_x_last Then
+																																	lamp6 = False
+																																	car_x = car_x_initial
+																																	car_y = car_y_initial
+																																	plamp = False
+																																	Main()
+																																End If
+																															Wend
+        																												End If
+																													Wend
+																												End If
+																											Wend
+        																								End If
+																									Wend
+																								End If
+																							Wend
+																						End If
+																					Wend
+        																		End If
+																			Wend
+																		End If
+																	Wend
+																End If
+															Wend
+														End If
+													Wend
+												End If
+											Wend
+										End If
+									Wend
+								End If
+							Wend
+						End If
+					Wend
+				End If
+            Wend
+        End If
+	Wend
+End Sub
+</ScriptCode>
+<Mode RunAtServer="1" UseUIInterface="0" SeparateThread="0" UseItsTrace="0" ModalDialogs="0"/>
+<Execution ThreadPriority="0" StatusVariable="" MaxInstances="1" SleepExecution="0" SyncroScriptTimeout="5000"/>
+</MovResource>

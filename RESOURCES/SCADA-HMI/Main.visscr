@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<MovResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<General ID="0" SizeX="1920" SizeY="1080" MaxClientDocSizeX="0" MaxClientDocSizeY="0" MaxClientPacketSizeX="0" MaxClientPacketSizeY="0" WebClientQuality="100" XBackImage="0" YBackImage="0" CXBackImage="-1" CYBackImage="-1"/>
+<BackGround GradientFill="0" GradientColor="0" BackImageFile="" BkColor="14809087" TileBackground="0"/>
+<Style NonDestroyable="0" GlobalContainerName="0" FitInWindow="1" ShowSynopticBorder="1" StatObjBack="0" KeepAspectRatio="0" EnableScrollBars="1" ShowOnMDITabs="0" SynapsisVisibled="1" UseAntialiasing="1" NumColors="0"/>
+<Execution LayerVariable="" ExecuteSynapse="0" CyclicSynapseExecution="0" SynopticPublicSource="" SynopticStyleSource="" StyleSourceBackColor="0" SynMaxInst="1" EnableMultiTouch="0" EnableZoom="1" FastTimerFreq="50" SlowTimerFreq="500" MaxCounterFast="50" MaxCounterSlow="10" SeparateThread="0" VisibleObjectsManager="0" WaitExpressionsTime="0" ExclusiveWriteAccess="0" TimeDeferClosingWnd="5000"/>
+<ListSynopticDraw>
+<child>
+<object>base</object>
+<type x="1330" y="60" width="-10" height="-60" fill="syscolor(BACKGROUND SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="600" y="60" width="-10" height="-60" fill="syscolor(BACKGROUND SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>group</object>
+<g x="650" y="864" width="620" height="20" ox="650" oy="1010" owidth="620" oheight="20"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="10" y="10" width="600" height="0" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="8" stroke-linecap="butt" stroke-linejoin="round">line</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Line25</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="20" y="20" width="-20" height="-20" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">ellipse</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Ellipse27</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="620" y="20" width="-20" height="-20" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">ellipse</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Ellipse28</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+</childs>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY Var="h3" Low="-1000" High="1000">1</MY>
+<Scale>0</Scale>
+<Rot Var="-deg" Low="4294966936">1</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>group</object>
+<g x="650" y="942" width="620" height="20" ox="650" oy="1010" owidth="620" oheight="20"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="10" y="10" width="600" height="0" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="8" stroke-linecap="butt" stroke-linejoin="round">line</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Line25</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="20" y="20" width="-20" height="-20" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">ellipse</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Ellipse27</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="620" y="20" width="-20" height="-20" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">ellipse</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Ellipse28</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+</childs>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY Var="h2" Low="-1000" High="1000">1</MY>
+<Scale>0</Scale>
+<Rot Var="deg" Low="4294966936">1</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>group</object>
+<g x="650" y="1020" width="620" height="20" ox="650" oy="1010" owidth="620" oheight="20"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="10" y="10" width="600" height="0" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="8" stroke-linecap="butt" stroke-linejoin="round">line</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Line25</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="20" y="20" width="-20" height="-20" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">ellipse</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Ellipse27</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="620" y="20" width="-20" height="-20" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">ellipse</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Ellipse28</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+</childs>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY Var="h1" Low="-1000" High="1000">1</MY>
+<Scale>0</Scale>
+<Rot Var="-deg" Low="4294966936">1</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="0" y="820" width="640" height="20" fill="syscolor(WINDOWFRAME SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>group</object>
+<g x="650" y="1020" width="620" height="20" ox="650" oy="1010" owidth="620" oheight="20"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="10" y="10" width="600" height="0" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="8" stroke-linecap="butt" stroke-linejoin="round">line</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Line25</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="20" y="20" width="-20" height="-20" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">ellipse</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Ellipse27</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="620" y="20" width="-20" height="-20" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">ellipse</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Ellipse28</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+</childs>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY Var="h1" Low="-1000" High="1000">1</MY>
+<Scale>0</Scale>
+<Rot Var="deg" Low="4294966936">1</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>group</object>
+<g x="650" y="942" width="620" height="20" ox="650" oy="1010" owidth="620" oheight="20"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="10" y="10" width="600" height="0" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="8" stroke-linecap="butt" stroke-linejoin="round">line</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Line25</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="20" y="20" width="-20" height="-20" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">ellipse</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Ellipse27</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="620" y="20" width="-20" height="-20" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">ellipse</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Ellipse28</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+</childs>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY Var="h2" Low="-1000" High="1000">1</MY>
+<Scale>0</Scale>
+<Rot Var="-deg" Low="4294966936">1</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>group</object>
+<g x="650" y="864" width="620" height="20" ox="650" oy="1010" owidth="620" oheight="20"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="10" y="10" width="600" height="0" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="8" stroke-linecap="butt" stroke-linejoin="round">line</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Line25</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="20" y="20" width="-20" height="-20" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">ellipse</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Ellipse27</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>base</type>
+<type x="620" y="20" width="-20" height="-20" fill="syscolor(WINDOW SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">ellipse</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Ellipse28</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+</childs>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY Var="h3" Low="-1000" High="1000">1</MY>
+<Scale>0</Scale>
+<Rot Var="deg" Low="4294966936">1</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>group</object>
+<g id="Car_a" x="20" y="104" width="600" height="200" ox="-454" oy="55" owidth="528" oheight="193" LibName="Vehicles" LibDate="2009-05-15T17:46:42Z" LibVers="1051"/>
+<ExtFill gcolor="rgb(0,0,0)" Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>poly</type>
+<type fill="rgb(255,0,0)" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">polygon</type>
+<ExtFill gcolor="rgb(0,0,0)" Style="3" fill="syscolor(WINDOW SysColor)" points="179,0 84,42 64,39 46,37 31,35 16,35 8,35 15,62 0,70 0,130 75,162 81,177 96,188 108,192 114,193 121,193 141,185 153,172 158,163 386,163 397,180 413,190 432,193 450,188 465,173 468,166 505,166 514,154 525,142 527,141 528,125 528,122 526,122 524,123 522,122 513,95 458,80 452,65 436,62 421,60 402,58 384,57 376,57 357,47 342,38 325,29 309,19 294,10 278,1 274,0 179,0">0</ExtFill>
+<Name acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>poly</type>
+<type fill="rgb(255,0,0)" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">polygon</type>
+<ExtFill gcolor="rgb(0,0,0)" Style="3" fill="syscolor(WINDOW SysColor)" points="115,130 123,131 130,136 135,142 136,150 135,158 130,165 123,169 115,171 107,169 100,165 95,158 94,150 95,142 100,136 107,131 115,130">0</ExtFill>
+<Name acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>poly</type>
+<type fill="rgb(255,0,0)" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">polygon</type>
+<ExtFill gcolor="rgb(0,0,0)" Style="3" fill="syscolor(WINDOW SysColor)" points="428,133 436,134 442,138 446,145 448,153 446,160 442,166 436,170 428,172 420,170 414,166 410,160 409,153 410,145 414,138 420,134 428,133">0</ExtFill>
+<Name acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>poly</type>
+<type fill="rgb(255,0,0)" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">polygon</type>
+<ExtFill gcolor="rgb(0,0,0)" Style="3" fill="syscolor(WINDOW SysColor)" points="267,7 299,57 235,57 228,24 223,22 218,21 213,21 209,24 208,33 206,40 205,45 203,53 202,54 202,48 203,43 204,38 205,31 206,24 207,16 208,7 267,7">0</ExtFill>
+<Name acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>poly</type>
+<type fill="rgb(255,0,0)" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">polygon</type>
+<ExtFill gcolor="rgb(0,0,0)" Style="3" fill="syscolor(WINDOW SysColor)" points="275,7 358,57 309,57 275,7">0</ExtFill>
+<Name acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>poly</type>
+<type fill="rgb(255,0,0)" stroke="rgb(0,0,0)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">polygon</type>
+<ExtFill gcolor="rgb(0,0,0)" Style="3" fill="syscolor(WINDOW SysColor)" points="179,7 179,7 191,7 184,57 119,57 114,56 106,55 104,54 103,53 103,51 106,46 110,43 115,39 122,35 130,31 139,26 151,20 164,14 179,7">0</ExtFill>
+<Name acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+</childs>
+<Name acr="4294901760">Vehicle_38</Name>
+<text font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX Var="car_x" Low="-1000" High="2000">1</MX>
+<MY Var="car_y" High="1000">1</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>base</object>
+<type x="0" y="304" width="640" height="20" fill="syscolor(WINDOWFRAME SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="0" y="560" width="640" height="20" fill="syscolor(WINDOWFRAME SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1280" y="304" width="640" height="20" fill="syscolor(WINDOWFRAME SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1280" y="560" width="640" height="20" fill="syscolor(WINDOWFRAME SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="1280" y="820" width="640" height="20" fill="syscolor(WINDOWFRAME SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>base</object>
+<type x="640" y="820" width="640" height="20" fill="syscolor(WINDOWFRAME SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Tahoma" font-size="8" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+<Visible>0</Visible>
+<Transparency>0</Transparency>
+<BG>0</BG>
+<EG>0</EG>
+<MX>0</MX>
+<MY Var="h4" Low="-1000" High="1000">1</MY>
+<Scale>0</Scale>
+<Rot>0</Rot>
+<SX>0</SX>
+<SY>0</SY>
+<EX>0</EX>
+<EY>0</EY>
+<FC>0</FC>
+<BList>0</BList>
+<LT Format="">0</LT>
+<RCX>0</RCX>
+<RCY>0</RCY>
+<CM>0</CM>
+</child>
+<child>
+<object>group</object>
+<g x="560" y="304" width="70" height="30" ox="684" oy="396" owidth="84" oheight="36"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="84" y="36" width="-84" height="-36" fill="syscolor(ACTIVECAPTION SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle42</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>Button</type>
+<type x="36" y="36" width="-36" height="-36" fill="none" stroke="syscolor(BTNTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>0</Border>
+<Mechanic CheckVariable="lamp2" MechanicStyle="1" CentralZero="0" PushStyleEx3="11" PushStyleEx2="11" PushStyleEx="11" PushStyle="4" clickable="0" NumOptBtn="5" RadioCheckSize="0">1</Mechanic>
+<KeyCode VirtualKey="0" ShowKeyShortcut="1" EnableShortcut="0">0</KeyCode>
+<Name AntialiasingFont="1" acr="4294901760">Button43</Name>
+<text font-family="Tahoma" font-size="10" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>Button</type>
+<type x="48" y="0" width="36" height="36" fill="none" stroke="syscolor(BTNTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>0</Border>
+<Mechanic CheckVariable="NOT lamp2" MechanicStyle="1" CentralZero="0" PushStyleEx3="12" PushStyleEx2="12" PushStyleEx="12" PushStyle="5" clickable="0" NumOptBtn="5" RadioCheckSize="0">1</Mechanic>
+<KeyCode VirtualKey="0" ShowKeyShortcut="1" EnableShortcut="0">0</KeyCode>
+<Name AntialiasingFont="1" acr="4294901760">Button44</Name>
+<text font-family="Tahoma" font-size="10" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+</childs>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>group</object>
+<g x="560" y="560" width="70" height="30" ox="684" oy="696" owidth="84" oheight="36"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="84" y="36" width="-84" height="-36" fill="syscolor(ACTIVECAPTION SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle46</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>Button</type>
+<type x="48" y="0" width="36" height="36" fill="none" stroke="syscolor(BTNTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>0</Border>
+<Mechanic CheckVariable="NOT lamp3" MechanicStyle="1" CentralZero="0" PushStyleEx3="12" PushStyleEx2="12" PushStyleEx="12" PushStyle="5" clickable="0" NumOptBtn="5" RadioCheckSize="0">1</Mechanic>
+<KeyCode VirtualKey="0" ShowKeyShortcut="1" EnableShortcut="0">0</KeyCode>
+<Name AntialiasingFont="1" acr="4294901760">Button45</Name>
+<text font-family="Tahoma" font-size="10" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>Button</type>
+<type x="36" y="36" width="-36" height="-36" fill="none" stroke="syscolor(BTNTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>0</Border>
+<Mechanic CheckVariable="lamp3" MechanicStyle="1" CentralZero="0" PushStyleEx3="11" PushStyleEx2="11" PushStyleEx="11" PushStyle="4" clickable="0" NumOptBtn="5" RadioCheckSize="0">1</Mechanic>
+<KeyCode VirtualKey="0" ShowKeyShortcut="1" EnableShortcut="0">0</KeyCode>
+<Name AntialiasingFont="1" acr="4294901760">Button47</Name>
+<text font-family="Tahoma" font-size="10" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+</childs>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>group</object>
+<g x="560" y="51" width="70" height="30" ox="684" oy="12" owidth="84" oheight="36"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="84" y="36" width="-84" height="-36" fill="syscolor(ACTIVECAPTION SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle41</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>Button</type>
+<type x="36" y="36" width="-36" height="-36" fill="none" stroke="syscolor(BTNTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>0</Border>
+<Mechanic CheckVariable="lamp1" MechanicStyle="1" CentralZero="0" PushStyleEx3="11" PushStyleEx2="11" PushStyleEx="11" PushStyle="4" clickable="0" NumOptBtn="5" RadioCheckSize="0">1</Mechanic>
+<KeyCode VirtualKey="0" ShowKeyShortcut="1" EnableShortcut="0">0</KeyCode>
+<Name AntialiasingFont="1" acr="4294901760">Button39</Name>
+<text font-family="Tahoma" font-size="10" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>Button</type>
+<type x="48" y="0" width="36" height="36" fill="none" stroke="syscolor(BTNTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>0</Border>
+<Mechanic CheckVariable="NOT lamp1" MechanicStyle="1" CentralZero="0" PushStyleEx3="12" PushStyleEx2="12" PushStyleEx="12" PushStyle="5" clickable="0" NumOptBtn="5" RadioCheckSize="0">1</Mechanic>
+<KeyCode VirtualKey="0" ShowKeyShortcut="1" EnableShortcut="0">0</KeyCode>
+<Name AntialiasingFont="1" acr="4294901760">Button40</Name>
+<text font-family="Tahoma" font-size="10" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+</childs>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>group</object>
+<g x="1290" y="51" width="70" height="30" ox="1548" oy="61" owidth="84" oheight="36"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="84" y="36" width="-84" height="-36" fill="syscolor(ACTIVECAPTION SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle41</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>Button</type>
+<type x="36" y="36" width="-36" height="-36" fill="none" stroke="syscolor(BTNTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>0</Border>
+<Mechanic CheckVariable="lamp4" MechanicStyle="1" CentralZero="0" PushStyleEx3="11" PushStyleEx2="11" PushStyleEx="11" PushStyle="4" clickable="0" NumOptBtn="5" RadioCheckSize="0">1</Mechanic>
+<KeyCode VirtualKey="0" ShowKeyShortcut="1" EnableShortcut="0">0</KeyCode>
+<Name AntialiasingFont="1" acr="4294901760">Button39</Name>
+<text font-family="Tahoma" font-size="10" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>Button</type>
+<type x="48" y="0" width="36" height="36" fill="none" stroke="syscolor(BTNTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>0</Border>
+<Mechanic CheckVariable="NOT lamp4" MechanicStyle="1" CentralZero="0" PushStyleEx3="12" PushStyleEx2="12" PushStyleEx="12" PushStyle="5" clickable="0" NumOptBtn="5" RadioCheckSize="0">1</Mechanic>
+<KeyCode VirtualKey="0" ShowKeyShortcut="1" EnableShortcut="0">0</KeyCode>
+<Name AntialiasingFont="1" acr="4294901760">Button40</Name>
+<text font-family="Tahoma" font-size="10" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+</childs>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>group</object>
+<g x="1290" y="304" width="70" height="30" ox="1548" oy="365" owidth="84" oheight="36"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="84" y="36" width="-84" height="-36" fill="syscolor(ACTIVECAPTION SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle41</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>Button</type>
+<type x="36" y="36" width="-36" height="-36" fill="none" stroke="syscolor(BTNTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>0</Border>
+<Mechanic CheckVariable="lamp5" MechanicStyle="1" CentralZero="0" PushStyleEx3="11" PushStyleEx2="11" PushStyleEx="11" PushStyle="4" clickable="0" NumOptBtn="5" RadioCheckSize="0">1</Mechanic>
+<KeyCode VirtualKey="0" ShowKeyShortcut="1" EnableShortcut="0">0</KeyCode>
+<Name AntialiasingFont="1" acr="4294901760">Button39</Name>
+<text font-family="Tahoma" font-size="10" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>Button</type>
+<type x="48" y="0" width="36" height="36" fill="none" stroke="syscolor(BTNTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>0</Border>
+<Mechanic CheckVariable="NOT lamp5" MechanicStyle="1" CentralZero="0" PushStyleEx3="12" PushStyleEx2="12" PushStyleEx="12" PushStyle="5" clickable="0" NumOptBtn="5" RadioCheckSize="0">1</Mechanic>
+<KeyCode VirtualKey="0" ShowKeyShortcut="1" EnableShortcut="0">0</KeyCode>
+<Name AntialiasingFont="1" acr="4294901760">Button40</Name>
+<text font-family="Tahoma" font-size="10" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+</childs>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>group</object>
+<g x="1290" y="560" width="70" height="30" ox="1548" oy="660" owidth="84" oheight="36"/>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<childs>
+<child>
+<type>base</type>
+<type x="84" y="36" width="-84" height="-36" fill="syscolor(ACTIVECAPTION SysColor)" stroke="syscolor(WINDOWTEXT SysColor)" stroke-width="1" stroke-linecap="butt" stroke-linejoin="round">rect</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Name AntialiasingFont="1" acr="4294901760">Rectangle41</Name>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>Button</type>
+<type x="36" y="36" width="-36" height="-36" fill="none" stroke="syscolor(BTNTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>0</Border>
+<Mechanic CheckVariable="lamp6" MechanicStyle="1" CentralZero="0" PushStyleEx3="11" PushStyleEx2="11" PushStyleEx="11" PushStyle="4" clickable="0" NumOptBtn="5" RadioCheckSize="0">1</Mechanic>
+<KeyCode VirtualKey="0" ShowKeyShortcut="1" EnableShortcut="0">0</KeyCode>
+<Name AntialiasingFont="1" acr="4294901760">Button39</Name>
+<text font-family="Tahoma" font-size="10" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<type>Button</type>
+<type x="48" y="0" width="36" height="36" fill="none" stroke="syscolor(BTNTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>0</Border>
+<Mechanic CheckVariable="NOT lamp6" MechanicStyle="1" CentralZero="0" PushStyleEx3="12" PushStyleEx2="12" PushStyleEx="12" PushStyle="5" clickable="0" NumOptBtn="5" RadioCheckSize="0">1</Mechanic>
+<KeyCode VirtualKey="0" ShowKeyShortcut="1" EnableShortcut="0">0</KeyCode>
+<Name AntialiasingFont="1" acr="4294901760">Button40</Name>
+<text font-family="Tahoma" font-size="10" text-anchor="middle" font-weight="400" pf="34" f3D="0" XOffset="0" YOffset="0"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+</childs>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+<child>
+<object>Button</object>
+<type x="540" y="1040" width="-420" height="-160" fill="none" stroke="syscolor(BTNTEXT SysColor)" stroke-width="0" stroke-linecap="butt" stroke-linejoin="round">normal</type>
+<ExtFill Style="3" fill="syscolor(WINDOW SysColor)">0</ExtFill>
+<Border>0</Border>
+<Mechanic CheckVariable="plamp" MechanicStyle="1" CentralZero="0" PushStyleEx3="0" PushStyleEx2="0" PushStyleEx="0" PushStyle="0" clickable="1" NumOptBtn="5" RadioCheckSize="0">1</Mechanic>
+<KeyCode VirtualKey="0" ShowKeyShortcut="1" EnableShortcut="0">0</KeyCode>
+<Name AntialiasingFont="1" acr="4294901760"/>
+<text font-family="Tahoma" font-size="16" text-anchor="middle" font-weight="700" op="3" cp="2" qu="1" pf="34" f3D="0" XOffset="0" YOffset="0">START/STOP</text>
+<Shadow>0</Shadow>
+<Rotation>0</Rotation>
+</child>
+</ListSynopticDraw>
+<VariableList/>
+</MovResource>
